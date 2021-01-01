@@ -52,7 +52,7 @@ GET /my-index/my-type/1
 In order to install this plugin, you need to create a zip distribution first by running
 
 ```bash
-gradle clean check
+gradle clean build
 ```
 
 This will produce a zip file in `build/distributions`.
@@ -62,9 +62,3 @@ After building the zip file, you can install it like this
 ```bash
 bin/elasticsearch-plugin install file:///path/to/ingest-translate/build/distribution/ingest-translate-0.0.1-SNAPSHOT.zip
 ```
-
-## Bugs & TODO
-
-* There are always bugs
-* and todos...
-
